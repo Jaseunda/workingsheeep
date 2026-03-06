@@ -529,8 +529,6 @@ Sheeep will be considered for a public source release once one of these is true:
 - the official public repository reaches 5,000+ GitHub stars, or
 - the official VS Code extension reaches 10,000+ installs
 
-The project must also remain actively maintained, with commits, releases, or PR reviews in the last 3 months.
-
 ## License
 
 See [LICENSE.md](./LICENSE.md).
