@@ -1,4 +1,5 @@
 import { writeFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 
 const OWNER = "Jaseunda";
 const STARS_REPO = "workingsheeep";
@@ -17,53 +18,29 @@ function badgeColor(current, goal) {
 }
 
 async function fetchGithubStars() {
-  const response = await fetch(`https://api.github.com/repos/${OWNER}/${STARS_REPO}`, {
-    headers: {
-      "Accept": "application/vnd.github+json",
-      "User-Agent": "sheeep-badge-updater"
-    }
-  });
-  if (!response.ok) {
-    throw new Error(`GitHub API failed: ${response.status}`);
-  }
-  const data = await response.json();
+  const raw = execFileSync("curl", [
+    "-fsSL",
+    "-H",
+    "Accept: application/vnd.github+json",
+    "-H",
+    "User-Agent: sheeep-badge-updater",
+    `https://api.github.com/repos/${OWNER}/${STARS_REPO}`
+  ], { encoding: "utf8" });
+  const data = JSON.parse(raw);
   return Number(data.stargazers_count ?? 0);
 }
 
 async function fetchVsCodeInstalls() {
-  const response = await fetch("https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery", {
-    method: "POST",
-    headers: {
-      "Accept": "application/json;api-version=7.2-preview.1",
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      filters: [
-        {
-          criteria: [
-            { filterType: 7, value: `${PUBLISHER}.${EXTENSION}` },
-            { filterType: 8, value: "Microsoft.VisualStudio.Code" }
-          ],
-          pageNumber: 1,
-          pageSize: 1,
-          sortBy: 0,
-          sortOrder: 0
-        }
-      ],
-      assetTypes: [],
-      flags: 256
-    })
-  });
+  const html = execFileSync("curl", [
+    "-fsSL",
+    `https://marketplace.visualstudio.com/items?itemName=${PUBLISHER}.${EXTENSION}`
+  ], { encoding: "utf8", maxBuffer: 10 * 1024 * 1024 });
 
-  if (!response.ok) {
-    throw new Error(`Marketplace API failed: ${response.status}`);
+  const match = html.match(/<span class="installs-text"[^>]*>\s*([0-9,]+)\s+install/);
+  if (!match) {
+    throw new Error("Could not find install count on marketplace page");
   }
-
-  const data = await response.json();
-  const extension = data?.results?.[0]?.extensions?.[0];
-  const stats = extension?.statistics ?? [];
-  const installs = stats.find((entry) => entry.statisticName === "install")?.value;
-  return Number(installs ?? 0);
+  return Number(match[1].replace(/,/g, ""));
 }
 
 async function writeBadge(file, label, current, goal) {
