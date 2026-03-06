@@ -8,19 +8,19 @@ Local-first notes and docs inside VS Code. Sheeep stores pages as files in your 
 
 ### Welcome page
 
-![Welcome page](./welcome.png)
+![Welcome page](./screenshots/welcome.png)
 
 ### Slash menu
 
-![Slash menu](./using-slash.png)
+![Slash menu](./screenshots/using-slash.png)
 
 ### Icon and emoji picker
 
-![Emoji picker](./clicking-emoji.png)
+![Emoji picker](./screenshots/clicking-emoji.png)
 
 ### PDF presentation mode
 
-![PDF presentation mode](./pdf-fullscreen-preview.png)
+![PDF presentation mode](./screenshots/pdf-fullscreen-preview.png)
 
 ## What Sheeep Does
 
