@@ -516,4 +516,4 @@ Do not edit the generated Markdown body outside Sheeep. Open the README in the S
 
 ## License
 
-MIT © jas
+See [LICENSE.md](./LICENSE.md).
