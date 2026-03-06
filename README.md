@@ -7,30 +7,15 @@
     "type": "emoji",
     "value": "🐑"
   },
-  "cover": null,
-  "created": "2026-03-06T16:39:11.043Z",
-  "modified": "2026-03-06T16:39:11.043Z",
+  "cover": {
+    "type": "color",
+    "value": "#3b82f6"
+  },
+  "created": "2026-03-06T19:15:00.000Z",
+  "modified": "2026-03-07T00:10:00.000Z",
   "blocks": [
     {
-      "id": "md-heading-1",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 1
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Sheeep",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-paragraph-2",
+      "id": "readme-1",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -47,7 +32,7 @@
       "children": []
     },
     {
-      "id": "md-paragraph-3",
+      "id": "readme-2",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -56,173 +41,38 @@
       },
       "content": [
         {
-          "type": "text",
-          "text": "Visual Studio Marketplace · VS Code ^1.85.0 · MIT",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-heading-4",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 2
-      },
-      "content": [
+          "type": "link",
+          "href": "https://marketplace.visualstudio.com/items?itemName=jaseunda.sheeep",
+          "content": [
+            {
+              "type": "text",
+              "text": "Visual Studio Marketplace",
+              "styles": {}
+            }
+          ]
+        },
         {
           "type": "text",
-          "text": "Screenshots",
+          "text": "  ·  ",
           "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-heading-5",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 3
-      },
-      "content": [
+        },
         {
           "type": "text",
-          "text": "Welcome page",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-paragraph-6",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
+          "text": "VS Code ^1.85.0",
+          "styles": {
+            "code": true
+          }
+        },
         {
           "type": "text",
-          "text": "Welcome page",
+          "text": "  ·  MIT",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-heading-7",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 3
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Slash menu",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-paragraph-8",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Slash menu",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-heading-9",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 3
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Icon and emoji picker",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-paragraph-10",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Emoji picker",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-heading-11",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 3
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "PDF presentation mode",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-paragraph-12",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "PDF presentation mode",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "md-heading-13",
+      "id": "readme-3",
       "type": "heading",
       "props": {
         "textColor": "default",
@@ -240,7 +90,24 @@
       "children": []
     },
     {
-      "id": "md-bullet-14",
+      "id": "readme-3b",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The GitHub README below includes a screenshot gallery for the current UI. Keep editing this file through Sheeep so the structured source stays in sync.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "readme-4",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -250,14 +117,26 @@
       "content": [
         {
           "type": "text",
-          "text": "Edits .shp pages in a custom rich editor instead of raw JSON",
+          "text": "Edits ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": ".shp",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " pages in a custom rich editor instead of raw JSON",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-bullet-15",
+      "id": "readme-5",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -274,7 +153,7 @@
       "children": []
     },
     {
-      "id": "md-bullet-16",
+      "id": "readme-6",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -291,7 +170,7 @@
       "children": []
     },
     {
-      "id": "md-bullet-17",
+      "id": "readme-7",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -301,14 +180,26 @@
       "content": [
         {
           "type": "text",
-          "text": "Presents PDFs in a local browser route on localhost:7865 for full-screen slide navigation",
+          "text": "Presents PDFs in a local browser route on ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "localhost:7865",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for full-screen slide navigation",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-bullet-18",
+      "id": "readme-8",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -318,14 +209,38 @@
       "content": [
         {
           "type": "text",
-          "text": "Supports hybrid README.shp and README.md files with embedded Sheeep source",
+          "text": "Supports hybrid ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "README.shp",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "README.md",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " files with embedded Sheeep source",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-heading-19",
+      "id": "readme-9",
       "type": "heading",
       "props": {
         "textColor": "default",
@@ -343,7 +258,7 @@
       "children": []
     },
     {
-      "id": "md-paragraph-20",
+      "id": "readme-10",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -353,14 +268,26 @@
       "content": [
         {
           "type": "text",
-          "text": "Run Sheeep: Generate Starter Templates from the Command Palette to copy the entire bundled template into your workspace.",
+          "text": "Run ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Sheeep: Generate Starter Templates",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " from the Command Palette to copy the entire bundled template into your workspace.",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-bullet-21",
+      "id": "readme-11",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -377,7 +304,7 @@
       "children": []
     },
     {
-      "id": "md-bullet-22",
+      "id": "readme-12",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -394,7 +321,7 @@
       "children": []
     },
     {
-      "id": "md-bullet-23",
+      "id": "readme-13",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -404,14 +331,26 @@
       "content": [
         {
           "type": "text",
-          "text": "A root SKILL.md guide so agents can create and edit pages correctly",
+          "text": "A root ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "SKILL.md",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " guide so agents can create and edit pages correctly",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-heading-24",
+      "id": "readme-14",
       "type": "heading",
       "props": {
         "textColor": "default",
@@ -429,7 +368,7 @@
       "children": []
     },
     {
-      "id": "md-paragraph-25",
+      "id": "readme-15",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -439,14 +378,38 @@
       "content": [
         {
           "type": "text",
-          "text": "For README.shp and README.md, Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.",
+          "text": "For ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "README.shp",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "README.md",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.",
           "styles": {}
         }
       ],
       "children": []
     },
     {
-      "id": "md-paragraph-26",
+      "id": "readme-16",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -463,7 +426,7 @@
       "children": []
     },
     {
-      "id": "md-heading-27",
+      "id": "readme-17",
       "type": "heading",
       "props": {
         "textColor": "default",
@@ -481,7 +444,7 @@
       "children": []
     },
     {
-      "id": "md-paragraph-28",
+      "id": "readme-18",
       "type": "paragraph",
       "props": {
         "textColor": "default",
@@ -507,55 +470,47 @@
 
 # Sheeep
 
-# Sheeep
-
 Local-first notes and docs inside VS Code. Sheeep stores pages as files in your repository, gives them a custom editor, and keeps the workflow friendly to version control, agents, and normal project review.
 
-Visual Studio Marketplace · VS Code ^1.85.0 · MIT
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jaseunda.sheeep) · `VS Code ^1.85.0` · MIT
 
 ## Screenshots
 
 ### Welcome page
 
-Welcome page
+![Welcome page](https://github.com/Jaseunda/workingsheeep/blob/main/screenshots/welcome.png?raw=1)
 
 ### Slash menu
 
-Slash menu
+![Slash menu](https://github.com/Jaseunda/workingsheeep/blob/main/screenshots/using-slash.png?raw=1)
 
 ### Icon and emoji picker
 
-Emoji picker
+![Emoji picker](https://github.com/Jaseunda/workingsheeep/blob/main/screenshots/clicking-emoji.png?raw=1)
 
 ### PDF presentation mode
 
-PDF presentation mode
+![PDF presentation mode](https://github.com/Jaseunda/workingsheeep/blob/main/screenshots/pdf-fullscreen-preview.png?raw=1)
 
 ## What Sheeep Does
 
-- Edits .shp pages in a custom rich editor instead of raw JSON
-
+- Edits `.shp` pages in a custom rich editor instead of raw JSON
 - Generates starter docs, examples, and agent guidance directly into your workspace
-
 - Opens PDF, Excel, and DOCX files inside Sheeep
-
-- Presents PDFs in a local browser route on localhost:7865 for full-screen slide navigation
-
-- Supports hybrid README.shp and README.md files with embedded Sheeep source
+- Presents PDFs in a local browser route on `localhost:7865` for full-screen slide navigation
+- Supports hybrid `README.shp` and `README.md` files with embedded Sheeep source
 
 ## Starter Template
 
-Run Sheeep: Generate Starter Templates from the Command Palette to copy the entire bundled template into your workspace.
+Run `Sheeep: Generate Starter Templates` from the Command Palette to copy the entire bundled template into your workspace.
 
 - Starter page and documentation set
-
 - Sample PDF, Excel, and DOCX files for viewer testing
-
-- A root SKILL.md guide so agents can create and edit pages correctly
+- A root `SKILL.md` guide so agents can create and edit pages correctly
 
 ## README Hybrid Mode
 
-For README.shp and README.md, Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.
+For `README.shp` and `README.md`, Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.
 
 Do not edit the generated Markdown body outside Sheeep. Open the README in the Sheeep editor and let the extension regenerate it.
 
