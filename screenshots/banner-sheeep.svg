@@ -1,0 +1,84 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="94" y1="52" x2="1156" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.52" stop-color="#182235"/>
+      <stop offset="1" stop-color="#101826"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="192" y1="122" x2="1024" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182338" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0E1523" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F6D36B"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="128" y="82" width="1024" height="472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1092" cy="116" r="132" fill="#1D4ED8" fill-opacity="0.18" filter="url(#soft)"/>
+  <circle cx="222" cy="570" r="156" fill="#14B8A6" fill-opacity="0.10" filter="url(#soft)"/>
+  <path d="M0 82C204 58 316 142 538 132C734 124 886 39 1280 94V0H0V82Z" fill="#2563EB" fill-opacity="0.95"/>
+  <path d="M0 130C230 82 412 196 640 188C838 182 1008 91 1280 144" stroke="#7DD3FC" stroke-opacity="0.25" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="164" y="118" width="952" height="392" rx="28" fill="url(#panel)" stroke="#223049"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="212" y="170" width="160" height="10" rx="5" fill="#2D3C57"/>
+    <rect x="212" y="198" width="116" height="10" rx="5" fill="#2D3C57"/>
+    <rect x="212" y="326" width="206" height="12" rx="6" fill="#24324B"/>
+    <rect x="212" y="356" width="278" height="12" rx="6" fill="#24324B"/>
+    <rect x="212" y="386" width="168" height="12" rx="6" fill="#24324B"/>
+    <rect x="212" y="434" width="148" height="44" rx="14" fill="#111827" stroke="#2E3B55"/>
+    <rect x="380" y="434" width="176" height="44" rx="14" fill="url(#accent)"/>
+  </g>
+
+  <g transform="translate(774 182)">
+    <rect x="0" y="0" width="248" height="146" rx="22" fill="#0E1624" stroke="#2A3A58"/>
+    <rect x="18" y="20" width="84" height="12" rx="6" fill="#32425F"/>
+    <rect x="18" y="48" width="146" height="10" rx="5" fill="#23334D"/>
+    <rect x="18" y="72" width="208" height="10" rx="5" fill="#23334D"/>
+    <rect x="18" y="96" width="172" height="10" rx="5" fill="#23334D"/>
+    <rect x="18" y="116" width="68" height="12" rx="6" fill="#F6D36B"/>
+  </g>
+
+  <g transform="translate(730 356)">
+    <rect x="0" y="0" width="312" height="94" rx="18" fill="#10192A" stroke="#273652"/>
+    <rect x="18" y="18" width="276" height="18" rx="9" fill="#1B2A42"/>
+    <rect x="18" y="48" width="126" height="28" rx="10" fill="#1A2435" stroke="#2A3A58"/>
+    <rect x="160" y="48" width="134" height="28" rx="10" fill="#1A2435" stroke="#2A3A58"/>
+  </g>
+
+  <g transform="translate(556 134)">
+    <ellipse cx="0" cy="124" rx="72" ry="54" fill="#F4F1E9"/>
+    <ellipse cx="-34" cy="92" rx="42" ry="34" fill="#F7F4ED"/>
+    <ellipse cx="26" cy="88" rx="38" ry="32" fill="#F7F4ED"/>
+    <ellipse cx="-4" cy="72" rx="40" ry="30" fill="#FBF9F4"/>
+    <ellipse cx="54" cy="122" rx="34" ry="28" fill="#F6F2EA"/>
+    <path d="M-78 138C-88 114 -82 92 -64 84C-44 74 -22 84 -18 112C-16 132 -30 146 -52 150L-78 138Z" fill="#D9CDBE"/>
+    <ellipse cx="-58" cy="108" rx="12" ry="10" fill="#E7DBCB"/>
+    <circle cx="-60" cy="106" r="3.5" fill="#111827"/>
+    <path d="M-70 122C-62 126 -52 126 -45 121" stroke="#6B5B4D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-26 168V222" stroke="#2D3748" stroke-width="7" stroke-linecap="round"/>
+    <path d="M10 172V226" stroke="#2D3748" stroke-width="7" stroke-linecap="round"/>
+    <path d="M42 166V220" stroke="#2D3748" stroke-width="7" stroke-linecap="round"/>
+    <path d="M68 158V208" stroke="#2D3748" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-70 84L-86 68" stroke="#806B57" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-48 78L-54 56" stroke="#806B57" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <text x="210" y="266" fill="#F8FAFC" font-size="86" font-weight="800" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Sheeep</text>
+  <text x="212" y="306" fill="#93C5FD" font-size="21" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">local-first notes and docs for VS Code</text>
+  <text x="212" y="334" fill="#C9D5E7" font-size="27" font-weight="500" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Rich pages, hybrid READMEs, built-in document viewers, and file-based starter docs.</text>
+
+  <text x="253" y="462" fill="#E5E7EB" font-size="18" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">README hybrid</text>
+  <text x="433" y="462" fill="#172033" font-size="18" font-weight="800" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">PDF, DOCX, XLSX</text>
+</svg>
