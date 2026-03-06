@@ -474,6 +474,14 @@ Local-first notes and docs inside VS Code. Sheeep stores pages as files in your 
 
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jaseunda.sheeep) · `VS Code ^1.85.0` · MIT
 
+## Maintainer
+
+Sheeep is created and maintained by **Jaseunda**.
+
+This public asset repository exists to support official README, marketplace, and community-facing project materials.
+
+Contributions are welcome, but the Sheeep name, official releases, and project direction remain with the main maintainer.
+
 ## Screenshots
 
 ### Welcome page
@@ -513,6 +521,15 @@ Run `Sheeep: Generate Starter Templates` from the Command Palette to copy the en
 For `README.shp` and `README.md`, Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.
 
 Do not edit the generated Markdown body outside Sheeep. Open the README in the Sheeep editor and let the extension regenerate it.
+
+## Public Source Release Goal
+
+Sheeep will be considered for a public source release once one of these is true:
+
+- the official public repository reaches 5,000+ GitHub stars, or
+- the official VS Code extension reaches 10,000+ installs
+
+The project must also remain actively maintained, with commits, releases, or PR reviews in the last 3 months.
 
 ## License
 
