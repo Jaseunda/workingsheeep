@@ -527,9 +527,9 @@ Do not edit the generated Markdown body outside Sheeep. Open the README in the S
 Sheeep will be considered for a public source release once one of these is true:
 
 - the official public repository reaches 5,000+ GitHub stars  
-  ![GitHub stars progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jaseunda/workingsheeep/main/badges/github-stars.json&style=flat-square)
+  Current: ![GitHub stars](https://img.shields.io/github/stars/Jaseunda/workingsheeep?style=flat-square&label=GitHub%20stars) Goal: `5000`
 - the official VS Code extension reaches 10,000+ installs  
-  ![VS Code installs progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jaseunda/workingsheeep/main/badges/vscode-installs.json&style=flat-square)
+  Current: ![VS Code installs](https://img.shields.io/visual-studio-marketplace/i/jaseunda.sheeep?style=flat-square&label=VS%20Code%20installs) Goal: `10000`
 
 ## License
 
