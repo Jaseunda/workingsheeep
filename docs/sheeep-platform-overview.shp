@@ -11,7 +11,7 @@
     "value": "#e8dcc2"
   },
   "created": "2026-03-07T10:20:00.000Z",
-  "modified": "2026-03-07T10:20:00.000Z",
+  "modified": "2026-03-08T20:05:00.000Z",
   "blocks": [
     {
       "id": "overview-1",
@@ -24,7 +24,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Sheeep is a Git-native workspace for project notes, documentation, boards, and supporting documents. It keeps knowledge as real files in the repository, then gives the team better surfaces to read, edit, review, and browse that content in VS Code and on the web.",
+          "text": "Sheeep is a Git-native workspace for project memory: documentation, planning boards, and supporting files that stay as normal files in your repo.",
           "styles": {}
         }
       ],
@@ -59,7 +59,7 @@
       "content": [
         {
           "type": "text",
-          "text": ".shp pages store structured docs as JSON with title, icon, cover, rich blocks, and comments.",
+          "text": ".shp pages are non-technical-friendly docs with readable structure, comments, and linked pages for onboarding, SOPs, launch notes, and handoffs.",
           "styles": {}
         }
       ],
@@ -76,7 +76,7 @@
       "content": [
         {
           "type": "text",
-          "text": ".frm boards store lightweight Kanban workflows with columns, tasks, descriptions, and comments.",
+          "text": ".frm boards are file-backed task systems with Board/List modes, Saved Views, filters, grouping, sorting, task metadata, dependencies, and bulk updates.",
           "styles": {}
         }
       ],
@@ -93,7 +93,7 @@
       "content": [
         {
           "type": "text",
-          "text": "README.md can run in hybrid mode, with embedded Sheeep source plus generated Markdown for GitHub readability.",
+          "text": "README.md hybrid mode keeps GitHub-readable markdown while preserving richer Sheeep source for editing.",
           "styles": {}
         }
       ],
@@ -110,7 +110,7 @@
       "content": [
         {
           "type": "text",
-          "text": "PDF, DOCX, and XLSX files stay as normal files in the repo and open in built-in read-only viewers.",
+          "text": "PDF, DOCX, and XLSX open in built-in viewers. Wide tables/pages stay readable on mobile via horizontal scrolling instead of text compression.",
           "styles": {}
         }
       ],
@@ -128,7 +128,7 @@
       "content": [
         {
           "type": "text",
-          "text": "What the VS Code Extension Does",
+          "text": "How Sync Works",
           "styles": {}
         }
       ],
@@ -145,7 +145,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Shows a Pages tree that reveals folders only when they contain visible Sheeep content.",
+          "text": "Edits are local-first in both web and VS Code surfaces.",
           "styles": {}
         }
       ],
@@ -162,7 +162,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Creates new pages, boards, and folders directly in the workspace.",
+          "text": "VS Code resolves repo identity from .git (Git API first, filesystem fallback). Web uses selected GitHub repo and branch.",
           "styles": {}
         }
       ],
@@ -179,7 +179,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Edits .shp pages in a custom rich editor with title, icon, cover, comments, and structured blocks.",
+          "text": "Queued sync targets repo identity, reuses existing PRs by base/head, and avoids duplicate commits when content hash is unchanged.",
           "styles": {}
         }
       ],
@@ -187,16 +187,17 @@
     },
     {
       "id": "overview-11",
-      "type": "numberedListItem",
+      "type": "heading",
       "props": {
         "textColor": "default",
         "backgroundColor": "default",
-        "textAlignment": "left"
+        "textAlignment": "left",
+        "level": 2
       },
       "content": [
         {
           "type": "text",
-          "text": "Edits .frm boards in a Kanban surface with drag-and-drop tasks and comment threads.",
+          "text": "Practical Guides",
           "styles": {}
         }
       ],
@@ -204,7 +205,7 @@
     },
     {
       "id": "overview-12",
-      "type": "numberedListItem",
+      "type": "bulletListItem",
       "props": {
         "textColor": "default",
         "backgroundColor": "default",
@@ -212,8 +213,19 @@
       },
       "content": [
         {
+          "type": "link",
+          "href": "frm-workflows.shp",
+          "content": [
+            {
+              "type": "text",
+              "text": "FRM Workflows",
+              "styles": {}
+            }
+          ]
+        },
+        {
           "type": "text",
-          "text": "Opens PDF, DOCX, and XLSX files in branded viewers without leaving Sheeep.",
+          "text": " for board/list execution, metadata triage, and saved views.",
           "styles": {}
         }
       ],
@@ -221,7 +233,7 @@
     },
     {
       "id": "overview-13",
-      "type": "numberedListItem",
+      "type": "bulletListItem",
       "props": {
         "textColor": "default",
         "backgroundColor": "default",
@@ -229,8 +241,19 @@
       },
       "content": [
         {
+          "type": "link",
+          "href": "offline-and-sync.shp",
+          "content": [
+            {
+              "type": "text",
+              "text": "Offline and Sync",
+              "styles": {}
+            }
+          ]
+        },
+        {
           "type": "text",
-          "text": "Generates starter templates and docs directly into a repository.",
+          "text": " for local-first editing, repo identity, and reconnect behavior.",
           "styles": {}
         }
       ],
@@ -238,58 +261,6 @@
     },
     {
       "id": "overview-14",
-      "type": "numberedListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Offers a non-technical mode that strips away editor noise for simpler writing sessions.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-15",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "What the Web Workspace Adds",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-16",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "The web workspace is meant to mirror the extension’s file model rather than invent a separate product. It gives non-technical teammates a calmer browser front door into the same repository-backed content.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-17",
       "type": "bulletListItem",
       "props": {
         "textColor": "default",
@@ -298,218 +269,19 @@
       },
       "content": [
         {
-          "type": "text",
-          "text": "Uses GitHub sign-in for access to repositories.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-18",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
+          "type": "link",
+          "href": "mobile-reading-and-tables.shp",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mobile Reading and Tables",
+              "styles": {}
+            }
+          ]
+        },
         {
           "type": "text",
-          "text": "Shows the same visible workspace files and nested folder tree rules as the extension.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-19",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Opens .shp pages, .frm boards, README.md, PDF, DOCX, and XLSX directly in the browser.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-20",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Creates new pages, boards, and folder-plus-starter-page flows inside the repo workspace.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-21",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Publishes edits to a reusable Sheeep web working branch and creates or reuses a pull request instead of committing straight to the default branch.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-22",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Caches workspace trees and file contents in browser storage so repeat opens feel immediate and do not spam GitHub on every click.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-23",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Why This Matters",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-24",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Sheeep keeps docs close to the code, keeps review inside Git, and gives both technical and non-technical contributors a usable surface over the same repository files. The extension is where power users go deep; the web workspace is where the same knowledge becomes easier to access, read, and safely contribute to.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-25",
-      "type": "heading",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Current Product Shape",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-26",
-      "type": "checkListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "checked": true
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Git-native docs and boards",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-27",
-      "type": "checkListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "checked": true
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "VS Code extension with custom page and board editors",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-28",
-      "type": "checkListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "checked": true
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Web workspace with repository tree, viewers, PR publish flow, and logout",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "overview-29",
-      "type": "checkListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left",
-        "checked": true
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Local browser cache for fast reopen behavior",
+          "text": " for .shp/README table overflow and DOCX mobile page readability.",
           "styles": {}
         }
       ],

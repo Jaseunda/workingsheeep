@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "type": "page",
+  "title": "FRM Workflows",
+  "icon": {
+    "type": "emoji",
+    "value": "🗂️"
+  },
+  "cover": {
+    "type": "color",
+    "value": "#0f766e"
+  },
+  "created": "2026-03-08T20:10:00.000Z",
+  "modified": "2026-03-08T20:10:00.000Z",
+  "blocks": [
+    {
+      "id": "f0",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Use this guide to run delivery planning in .frm with one shared workflow across web and VS Code.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f1",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": "Core Loop", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Create tasks with title, description, assignee, and status column.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Triage metadata: priority, labels, due date, estimate, and taskType (tech or nonTech).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Switch between Board and List views depending on execution vs review needs.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Save focused states as Saved Views (view mode + group + sort + filters).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f6",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Use bulk updates for status, assignee, priority, labels, and task type when triaging many tasks.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f7",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": "Planning Depth", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f8",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Parent and sub-task linking via parentTaskId.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f9",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Dependencies via blockedBy and blocking fields.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f10",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Archive tasks without deleting historical context.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "f11",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Next: ", "styles": {} },
+        {
+          "type": "link",
+          "href": "offline-and-sync.shp",
+          "content": [
+            { "type": "text", "text": "Offline and Sync", "styles": {} }
+          ]
+        }
+      ],
+      "children": []
+    }
+  ],
+  "comments": []
+}

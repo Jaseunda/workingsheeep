@@ -21,7 +21,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Sheeep is built on the philosophy that you should own your project memory. We don't store your docs, we don't track your thoughts, and we don't have a \"cloud\".",
+          "text": "Sheeep is built on the idea that you should own project memory. Docs and boards stay as repository files, with local-first editing and optional sync when you choose to connect.",
           "styles": {}
         }
       ],
@@ -58,7 +58,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Unlike traditional productivity tools, Sheeep does not store your content on its own servers. There is no central Sheeep database where your notes or boards reside.",
+          "text": "Unlike traditional productivity tools, Sheeep does not keep your notes or boards in a central Sheeep-hosted database.",
           "styles": {}
         }
       ],
@@ -95,7 +95,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Your data stays in your repository. Access is controlled by your Git provider's permissions. If you have access to the code, you have access to the memory.",
+          "text": "Your data stays in your repository. Access is controlled by your Git provider and repository permissions.",
           "styles": {}
         }
       ],

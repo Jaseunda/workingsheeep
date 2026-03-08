@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "type": "page",
+  "title": "Mobile Reading and Tables",
+  "icon": {
+    "type": "emoji",
+    "value": "📱"
+  },
+  "cover": {
+    "type": "color",
+    "value": "#ea580c"
+  },
+  "created": "2026-03-08T20:10:00.000Z",
+  "modified": "2026-03-08T20:10:00.000Z",
+  "blocks": [
+    {
+      "id": "m0",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Sheeep keeps mobile reading usable by allowing horizontal scroll where content is naturally wide, instead of squeezing text into unreadable columns.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m1",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": ".shp and README Tables", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Tables in BlockNote/ProseMirror wrappers can scroll horizontally on narrow screens.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Page spacing stays intact for readability; only the table region scrolls.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m4",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": "DOCX Viewer", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m5",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "DOCX pages keep natural page width (no forced fit-to-screen compression).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m6",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Wide DOCX layouts and tables scroll horizontally inside a dedicated container.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m7",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Vertical reading remains unchanged, so long documents still scroll naturally.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "m8",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Related: ", "styles": {} },
+        {
+          "type": "link",
+          "href": "sheeep-platform-overview.shp",
+          "content": [
+            { "type": "text", "text": "Platform Overview", "styles": {} }
+          ]
+        }
+      ],
+      "children": []
+    }
+  ],
+  "comments": []
+}

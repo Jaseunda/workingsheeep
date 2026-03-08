@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "type": "page",
+  "title": "Offline and Sync",
+  "icon": {
+    "type": "emoji",
+    "value": "🔄"
+  },
+  "cover": {
+    "type": "color",
+    "value": "#7c3aed"
+  },
+  "created": "2026-03-08T20:10:00.000Z",
+  "modified": "2026-03-08T20:10:00.000Z",
+  "blocks": [
+    {
+      "id": "s0",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Sheeep is local-first: editing never requires an immediate push. Sync happens when you choose to connect and publish changes.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s1",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": "Repo Identity", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "VS Code source of truth: .git repo identity (Git API first, filesystem fallback).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Web source of truth: selected GitHub owner/repo + branch context.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Queue keys are tied to repo identity, not just a local file path.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s5",
+      "type": "heading",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left", "level": 2 },
+      "content": [
+        { "type": "text", "text": "Reconnect Behavior", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s6",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Apply queued operations to the resolved repo identity and branch.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s7",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Reuse existing PRs by base/head pair to avoid duplicate pull requests.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s8",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Skip duplicate commits when the resulting file content hash has not changed.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s9",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "No remote configured? Editing still works locally, and sync is shown as local-only until a remote is configured.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "s10",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Next: ", "styles": {} },
+        {
+          "type": "link",
+          "href": "mobile-reading-and-tables.shp",
+          "content": [
+            { "type": "text", "text": "Mobile Reading and Tables", "styles": {} }
+          ]
+        }
+      ],
+      "children": []
+    }
+  ],
+  "comments": []
+}

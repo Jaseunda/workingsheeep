@@ -11,7 +11,7 @@
     "value": "#786c5f"
   },
   "created": "2026-03-08T16:06:00.000Z",
-  "modified": "2026-03-08T16:06:00.000Z",
+  "modified": "2026-03-08T20:18:00.000Z",
   "blocks": [
     {
       "id": "intro-1",
@@ -26,6 +26,109 @@
           "type": "text",
           "text": "The latest updates, improvements, and bug fixes for the Sheeep ecosystem.",
           "styles": { "italic": true }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-h",
+      "type": "heading",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "v0.0.149 — FRM Parity + Mobile Reading",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-p1",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This release aligns .frm workflows across web and VS Code, improves mobile table readability, and refreshes product/docs presentation.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-b1",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "FRM core parity shipped: Board/List, Saved Views, task metadata, task type (tech/nonTech), grouping/sorting/filtering, dependencies, and bulk updates.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-b2",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Mobile readability fix: .shp/README tables and DOCX wide layouts now use horizontal scrolling instead of forced text compression on narrow screens.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-b3",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Product screenshot parity updated: .shp and .frm pages now follow landing screenshot treatment and correct image selection.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v149-b4",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Docs pack refresh: public assets, workflow guides, and template agent guidance now reflect the current .shp/.frm runtime behavior.",
+          "styles": {}
         }
       ],
       "children": []
@@ -59,132 +162,7 @@
       "content": [
         {
           "type": "text",
-          "text": "This release focuses on the website experience and preparing for Sheepfold (the standalone macOS app).",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "v141-bullets-h",
-      "type": "paragraph",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "What's new:",
-          "styles": { "bold": true }
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "bullet-1",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Web Workspace Showcase",
-          "styles": { "bold": true }
-        },
-        {
-          "type": "text",
-          "text": ": A new dedicated page at ",
-          "styles": {}
-        },
-        {
-          "type": "text",
-          "text": "/web",
-          "styles": { "code": true }
-        },
-        {
-          "type": "text",
-          "text": " highlighting the browser-based collaboration features.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "bullet-2",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Ecosystem Overview",
-          "styles": { "bold": true }
-        },
-        {
-          "type": "text",
-          "text": ": Realignment of the product strategy with the and a new ",
-          "styles": {}
-        },
-        {
-          "type": "text",
-          "text": "/product",
-          "styles": { "code": true }
-        },
-        {
-          "type": "text",
-          "text": " overview.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "bullet-3",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Navigation Refinement",
-          "styles": { "bold": true }
-        },
-        {
-          "type": "text",
-          "text": ": Compact Resources dropdown for a cleaner landing page experience.",
-          "styles": {}
-        }
-      ],
-      "children": []
-    },
-    {
-      "id": "bullet-4",
-      "type": "bulletListItem",
-      "props": {
-        "textColor": "default",
-        "backgroundColor": "default",
-        "textAlignment": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Custom 404 Page",
-          "styles": { "bold": true }
-        },
-        {
-          "type": "text",
-          "text": ": A brand-consistent lost page to keep the flock together.",
+          "text": "This release focused on website polish and prep for Sheepfold (the standalone macOS app).",
           "styles": {}
         }
       ],
@@ -219,7 +197,7 @@
       "content": [
         {
           "type": "text",
-          "text": "The initial stable release of the Sheeep Web Workspace and the VS Code Extension integration.",
+          "text": "The initial stable release of the Sheeep web workspace and VS Code extension integration.",
           "styles": {}
         }
       ],

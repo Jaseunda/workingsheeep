@@ -117,7 +117,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Edits ",
+          "text": "Supports ",
           "styles": {}
         },
         {
@@ -129,7 +129,7 @@
         },
         {
           "type": "text",
-          "text": " pages in a custom rich editor instead of raw JSON",
+          "text": " pages for non-technical-friendly docs and project memory",
           "styles": {}
         }
       ],
@@ -153,6 +153,23 @@
       "children": []
     },
     {
+      "id": "readme-5a",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Supports .frm boards with Board/List views, Saved Views, task metadata, dependencies, and bulk updates",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
       "id": "readme-6",
       "type": "bulletListItem",
       "props": {
@@ -163,7 +180,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Opens PDF, Excel, and DOCX files inside Sheeep",
+          "text": "Opens PDF, Excel, and DOCX files inside Sheeep with mobile-friendly reading behavior",
           "styles": {}
         }
       ],
@@ -209,7 +226,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Supports hybrid ",
+          "text": "Keeps hybrid ",
           "styles": {}
         },
         {
@@ -233,7 +250,7 @@
         },
         {
           "type": "text",
-          "text": " files with embedded Sheeep source",
+          "text": " files with embedded Sheeep source and GitHub-readable output",
           "styles": {}
         }
       ],
@@ -502,11 +519,12 @@ Contributions are welcome, but the Sheeep name, official releases, and project d
 
 ## What Sheeep Does
 
-- Edits `.shp` pages in a custom rich editor instead of raw JSON
+- Supports `.shp` pages for non-technical-friendly docs and project memory
+- Supports `.frm` boards with Board/List views, Saved Views, metadata triage, dependencies, and bulk updates
 - Generates starter docs, examples, and agent guidance directly into your workspace
-- Opens PDF, Excel, and DOCX files inside Sheeep
+- Opens PDF, Excel, and DOCX files inside Sheeep with mobile-friendly reading behavior
 - Presents PDFs in a local browser route on `localhost:7865` for full-screen slide navigation
-- Supports hybrid `README.shp` and `README.md` files with embedded Sheeep source
+- Keeps hybrid `README.shp` and `README.md` files with embedded Sheeep source and GitHub-readable output
 
 ## Starter Template
 
@@ -521,6 +539,15 @@ Run `Sheeep: Generate Starter Templates` from the Command Palette to copy the en
 For `README.shp` and `README.md`, Sheeep stores the page source in a hidden comment block and generates the visible Markdown body from that source. This keeps GitHub readable without giving up the richer Sheeep document model.
 
 Do not edit the generated Markdown body outside Sheeep. Open the README in the Sheeep editor and let the extension regenerate it.
+
+## Practical Docs
+
+- [Platform Overview](./docs/sheeep-platform-overview.shp)
+- [FRM Workflows](./docs/frm-workflows.shp)
+- [Offline and Sync](./docs/offline-and-sync.shp)
+- [Mobile Reading and Tables](./docs/mobile-reading-and-tables.shp)
+- [Privacy](./docs/privacy/privacy.shp)
+- [Changelog](./docs/release/changelogs.shp)
 
 ## Public Source Release Goal
 
