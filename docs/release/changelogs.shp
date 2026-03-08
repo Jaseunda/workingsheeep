@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "type": "page",
+  "title": "Changelog",
+  "icon": {
+    "type": "emoji",
+    "value": "📜"
+  },
+  "cover": {
+    "type": "color",
+    "value": "#786c5f"
+  },
+  "created": "2026-03-08T16:06:00.000Z",
+  "modified": "2026-03-08T16:06:00.000Z",
+  "blocks": [
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The latest updates, improvements, and bug fixes for the Sheeep ecosystem.",
+          "styles": { "italic": true }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v141-h",
+      "type": "heading",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "v0.0.141 — The Web & Visual Update",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v141-p1",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This release focuses on the website experience and preparing for Sheepfold (the standalone macOS app).",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v141-bullets-h",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What's new:",
+          "styles": { "bold": true }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bullet-1",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Web Workspace Showcase",
+          "styles": { "bold": true }
+        },
+        {
+          "type": "text",
+          "text": ": A new dedicated page at ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/web",
+          "styles": { "code": true }
+        },
+        {
+          "type": "text",
+          "text": " highlighting the browser-based collaboration features.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bullet-2",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Ecosystem Overview",
+          "styles": { "bold": true }
+        },
+        {
+          "type": "text",
+          "text": ": Realignment of the product strategy with the and a new ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/product",
+          "styles": { "code": true }
+        },
+        {
+          "type": "text",
+          "text": " overview.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bullet-3",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Navigation Refinement",
+          "styles": { "bold": true }
+        },
+        {
+          "type": "text",
+          "text": ": Compact Resources dropdown for a cleaner landing page experience.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bullet-4",
+      "type": "bulletListItem",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Custom 404 Page",
+          "styles": { "bold": true }
+        },
+        {
+          "type": "text",
+          "text": ": A brand-consistent lost page to keep the flock together.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v140-h",
+      "type": "heading",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "v0.0.140 — Foundation & Git Sync",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "v140-p1",
+      "type": "paragraph",
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The initial stable release of the Sheeep Web Workspace and the VS Code Extension integration.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    }
+  ],
+  "comments": []
+}
